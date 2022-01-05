@@ -1,5 +1,7 @@
 #  Svelte Language Server Yarn PnP resolution crash PoC
 
+[Fix PR](https://github.com/sveltejs/language-tools/pull/1313)
+
 ```
 [snip]\svelte-language-server-pnp-crash\.pnp.cjs:11508
     throw firstError;
