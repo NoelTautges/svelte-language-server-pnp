@@ -1,5 +1,5 @@
 {
-  "name": "svelte-language-server-pnp",
+  "name": "svelte-language-server-pnp-crash",
   "packageManager": "yarn@3.1.1",
   "dependencies": {
     "svelte-language-server": "^0.14.16"

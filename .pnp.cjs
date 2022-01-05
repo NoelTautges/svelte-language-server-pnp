@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "svelte-language-server-pnp",
+        "name": "svelte-language-server-pnp-crash",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["svelte-language-server-pnp", ["workspace:."]]
+      ["svelte-language-server-pnp-crash", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -1511,11 +1511,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["svelte-language-server-pnp", [
+      ["svelte-language-server-pnp-crash", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["svelte-language-server-pnp", "workspace:."],
+            ["svelte-language-server-pnp-crash", "workspace:."],
             ["svelte-language-server", "npm:0.14.16"]
           ],
           "linkType": "SOFT",

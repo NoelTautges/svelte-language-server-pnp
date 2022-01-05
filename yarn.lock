@@ -1245,9 +1245,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-language-server-pnp@workspace:.":
+"svelte-language-server-pnp-crash@workspace:.":
   version: 0.0.0-use.local
-  resolution: "svelte-language-server-pnp@workspace:."
+  resolution: "svelte-language-server-pnp-crash@workspace:."
   dependencies:
     svelte-language-server: ^0.14.16
   languageName: unknown
